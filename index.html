@@ -3,10 +3,149 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Глейси</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Базовый HTML и CSS</a>».</p>
-
-  </body>
+<header class="main-header">
+  <div class="header-menu">
+    <div class="header-info">
+      <div class="index-logo">
+        <img src="img/index-logo.png">
+      </div>
+      <ul>
+        <li>
+          <a href="#">Каталог</a>
+        </li>
+        <li>
+          <a href="#">Доставка и оплата</a>
+        </li>
+        <li>
+          <a href="#">О компании</a>
+        </li>
+      </ul>
+    </div>
+    <div class="header-user">
+      <div class="user-info">
+        <div class="form-search">
+          <form action="#" method="get">
+            <input type="text" name="search" id="search">
+          </form>
+        </div>
+        <div class="users-button">
+          <a class="login" href="#">Вход</a>
+          <a class="basket" href="#">Пусто</a>
+        </div>
+      </div>
+    <div class="shop-info">
+      <p>C 10 до 20, ежедневно</p>
+      <span class="phone">8 812 450-25-25</span>
+    </div>
+   </div>
+  </div>
+</header>
+<main class="basic">
+  <div class="gallery">
+      <figure class="gallery-content">
+          <img src="img/photo.jpg">
+      </figure>
+        <a class="choice" href="#">Давайте оба!</a>
+  </div>
+  <div class="stock">
+      <div class="stock-left">
+          <b>Малинка даром</b>
+          <p>При покупке 2 кг любого фруктового мороженого, добавим в ваш заказ банку малинового варенья бесплатно.</p>
+      </div>
+      <div class="stock-right">
+          <b>Шоколадки даром</b>
+          <p>При покупке 2 кг пломбира, добавим в ваш заказ упаковку вкуснейшей шоколадной присыпки совершенно бесплатно.</p>
+      </div>
+  </div>
+  <div class="kinds">
+    <div class="icecream">
+      <div class="icecream-img">
+        <img src="" alt="">
+      </div>
+      <div class="iceream-price">350 р/кг</div>
+      <h3 class="icecream-species">
+          <a href="#">Сливочное с апельсиновым джемом и цитрусовой стружкой</a>
+      </h3>
+      </div>
+      <div class="icecream">
+        <div class="icecream-img">
+          <img src="" alt="">
+        </div>
+          <div class="iceream-price">380 р/кг</div>
+          <h3 class="icecream-species">
+            <a href="#">Сливочно-кофейное с кусочками шоколада</a>
+          </h3>
+      </div>
+      <div class="icecream">
+        <div class="icecream-img">
+          <img src="" alt="">
+        </div>
+        <div class="iceream-price">355 р/кг</div>
+        <h3 class="icecream-species">
+          <a href="#">Сливочно-клубничное с присыпкой из белого шоколада</a>
+        </h3>
+      </div>
+      <div class="icecream">
+        <div class="icecream-img">
+          <img src="" alt="">
+        </div>
+        <div class="iceream-price">415 р/кг</div>
+        <h3 class="icecream-species">
+          <a href="#">Сливочное крем-брюлес карамельной подливкой</a>
+        </h3>
+      </div>
+  </div>
+      <div class="about-us">
+        <p>Все наше мороженое изготавливается на собственном производстве, с использованием современного оборудования и проверенных временем технологий.</p>
+         <p>Для приготовления мороженого используются настоящие сливки и молоко высочайшего качества. Все дополнительные ингредиенты и добавки произведены из натурального, экологически чистого сырья.</p>
+         <p>Закупка ингредиентов  производится только у проверенных фермерских хозяйств и компаний, с которыми нас связывает долговременное сотрудничество.</p>
+         <p>Доставка нашего мороженого до заказчиков осуществляется в специальном термопаке, который не дает мороженому растаять в пути и позволяет сохранить превосходный вкус.</p>
+      </div>
+</main>
+<footer class="main-footer">
+  <div class="container">
+    <div class="content-left">
+      <p>Новое в нашем блоге</p>
+      <a class="post" href="#">10  способов сервировки фруктовых щербетов к столу</a>
+    </div>
+    <div class="container-right">
+      <p>Подпишитесь на нашу сладкую рассылку и будете всегда в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой не нужной ерунды. Честно =)</p>
+      <form class="subscription" action="#" method="post">
+        <input type="text" name="mail" id="mail" placeholder="Электронная почта">
+        <button class="btn-subs" type="submit">Отправить</button>
+      </form>
+    </div>
+  </div>
+  <div class="feedback">
+    <p>Адрес главного офиса и <br>
+      офлайн магазина:</p>
+    <span>ул. Большая Конюшенная<br>
+       19/8, Санкт-Петербург</span>
+    <p>Для заказов по телефону:</p>
+    <span>8 812 450-25-25</span>
+    <p>(с 10 до 20 ежедневно)</p>
+    <input type="submit" value="Форма обратной связи">
+  </div>
+  <div class="social networks">
+    <a class="social-btn social-btn-tw" href="#"></a>
+    <a class="social-btn social-btn-inst" href="#"></a>
+    <a class="social-btn social-btn-fb" href="#"></a>
+    <a class="social-btn social-btn-vk" href="#"></a>
+  </div>
+  <div class="production">
+    <a class="providers">Для поставщиков</a>
+    <a>О производстве</a>
+    <a>Наши документы</a>
+    <a>Экологические стандарты</a>
+  </div>
+  <div class="footer-copyright">
+    <p>Сделано в HTML Academy 2016</p>
+    <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
+  </div>
+  </footer>
+ </body>
 </html>
