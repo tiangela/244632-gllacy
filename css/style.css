@@ -13,6 +13,8 @@ h2 {
   font-weight: normal;
   line-height: 30px;
   color: #323232;
+  padding: 0;
+  margin: 0;
 }
 
 h3 {
@@ -76,13 +78,14 @@ h3 {
 
 .products{
   font-size: 0;
-  }
+  text-align:center;
+}
 
 .icecream {
   display: inline-block;
   margin-right: 27px;
   width: 267px;
-  margin-bottom: 32px;
+  margin-bottom: 38px;
   vertical-align: top;
   background-color: #90d6af;
 }
@@ -98,6 +101,7 @@ h3 {
 .about-us {
   background-color: #cccccc;
   margin-bottom: 40px;
+  margin-top: 0;
 }
 
 .about-us-left {
