@@ -16,46 +16,63 @@
         <div class="index-logo">
           <img src="img/logo.svg" width="152" height="65" alt="Логотип">
         </div>
-        <div class="header-left-info">
-          <ul>
-            <li>
-              <a href="#">Каталог</a>
+        <ul class="main-menu">
+          <li>
+            <a href="#">Каталог</a>
             </li>
-            <li>
-              <a href="#">Доставка и оплата</a>
-            </li>
-            <li>
-              <a href="#">О компании</a>
-            </li>
-          </ul>
-        </div>
+          <li>
+            <a href="#">Доставка и оплата</a>
+          </li>
+          <li>
+            <a href="#">О Компании</a>
+          </li>
+        </ul>
       </div>
-      <div class="header-right">
+      <div class="header-right clearfix">
         <div class="header-right-top">
           <div class="search">
-            <div class="search-icon"></div>
-            <div class="search-modal"></div>
+            <div class="search-icon">
+            <a class="field" href="#"></a>
           </div>
-          <div class="login">
-            <div class="login-icon"></div>
-            <div class="login-modal"></div>
-          </div>
-          <div class="bascet">
-            <div class="bascet-icon"></div>
-            <div class="basket-modal"></div>
-          </div>
+              <div class="search-modal">
+                <form action="#" method="get">
+                  <input type="search" name="search-form" placeholder="Что ищем?">
+                </form>
+            </div>
         </div>
-        <div class="header-right-bottom">
-          <p>c 10 до 20, ежедневно</p>
-          <span>8 812 450-25-25</span>
-        </div>
+      <div class="login">
+      <div class="login-icon">
+      <a class="entry" href="#">Вход</a>
       </div>
+      <div class="login-modal">
+        <form action="#" method="post">
+          <input type="text" name="mail" id="mail" placeholder="Электронная почта">
+          <input type="password" name="password" id="password" placeholder="Пароль">
+          <input type="submit" value="Войти">
+          </form>
+      </div>
+    </div>
+    <div class="basket">
+      <div class="basket-icon">
+        <a class="basket-field">Пусто</a>
+      </div>
+      <div class="basket-modal">
+        <form action="#" method="post">
+        </form>
+      </div>
+    </div>
+    </div>
+    </div>
     </div>
   </header>
   <main class="catalog container">
+    <div class="header-right-bottom сlearfix">
+      <p>c 10 до 20, ежедневно</p>
+      <span>8 812 450-25-25</span>
+    </div>
     <ul class="breadcrumbs">
-      <li><a href="">Главная</a></li>
-      <li><a href="">Каталог</a></li>
+      <li><a href="#">Главная</a></li>
+      <li><a href="#">Каталог</a></li>
       <li><span>Сливочное</span></li>
     </ul>
     <div class="choice">
