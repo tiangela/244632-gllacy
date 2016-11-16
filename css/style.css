@@ -11,6 +11,10 @@ body > input[type="radio"] {
   display: none;
 }
 
+a:not(ul):hover {
+  color: #ffbc9e;
+}
+
 h1 {
   font-size: 35px;
   line-height: 41px;
@@ -272,6 +276,18 @@ h3 {
 .btn-3:checked ~ .site-wrapper {
   background-color: #9d8b84;
   background-image: url("../img/slide-3.png");
+}
+
+.btn-1:hover ~ .site-wrapper label[for="btn-1"],
+.btn-2:hover ~ .site-wrapper label[for="btn-2"],
+.btn-3:hover ~ .site-wrapper label[for="btn-3"]{
+  background-color: #b2c1b7;
+}
+
+.btn-1:checked:hover ~ .site-wrapper label[for="btn-1"],
+.btn-2:checked:hover ~ .site-wrapper label[for="btn-2"],
+.btn-3:checked:hover ~ .site-wrapper label[for="btn-3"] {
+  background-color: #ffffff;
 }
 
 .slide-title {
