@@ -266,51 +266,8 @@
       </div>
     </div>
   </div>
-    <script>
-      var link = document.querySelector(".btn-form");
-      var popup = document.querySelector(".modal-content");
-      var close = popup.querySelector(".modal-content-close");
-      var form = popup.querySelector("form");
-      var login = popup.querySelector("[name=login]");
-      var password = popup.querySelector("[name=mail]");
-      var storage = localStorage.getItem("login");
-      link.addEventListener("click", function(event) {
-        event.preventDefault();
-        popup.classList.add("modal-content-show");
-        if (storage) {
-          login.value = storage;
-          password.focus();
-        } else {
-          login.focus();
-        }
-      });
-      close.addEventListener("click", function(event) {
-        event.preventDefault();
-        popup.classList.remove("modal-content-show");
-        popup.classList.remove("modal-error");
-      });
-
-      form.addEventListener("submit", function(event) {
-        if (!login.value || !password.value) {
-          event.preventDefault();
-          popup.classList.remove("modal-error");
-          popup.offsetWidth = popup.offsetWidth;
-          console.log("Нужно ввести имя и электронную почту");
-          popup.classList.add("modal-error");
-        } else {
-          localStorage.setItem("login", login.value);
-        }
-      });
-      window.addEventListener("keydown", function(event) {
-        if (event.keyCode === 27) {
-          if (popup.classList.contains("modal-content-show")) {
-            popup.classList.remove("modal-content-show");
-            popup.classList.remove("modal-error");
-          }
-        }
-      });
-    </script>
-    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=TUPrdKJTh5eoYCPVRtoU1K-U3JITU4Sm&amp;width=1200&amp;height=430&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true;id=yandex-map"></script>
+  <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=TUPrdKJTh5eoYCPVRtoU1K-U3JITU4Sm&amp;width=1200&amp;height=430&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true;id=yandex-map"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
