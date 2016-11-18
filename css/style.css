@@ -1103,6 +1103,7 @@ padding-left: 12px;
   position: absolute;
   bottom: 68px;
   left: 15px;
+  z-index: 200;
 }
 
 .icecream-species {
