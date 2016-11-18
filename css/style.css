@@ -1053,15 +1053,15 @@ li:hover .sub-menu {
 
 .products{
   font-size: 0;
-
+position: relative;
 }
 
 .icecream {
   display: inline-block;
   padding-top: 6px;
   width: 267px;
-  max-height: 335px;
-  margin-bottom: 29px;
+  min-height: 335px;
+  margin-bottom: 20px;
   padding-right: 14px;
   padding-left: 13px;
   vertical-align: top;
@@ -1070,9 +1070,9 @@ li:hover .sub-menu {
   text-align: center;
 }
 
-.products:nth-child(4){
-  padding: 0;
-  margin: 0;
+.icecream:nth-child(4n) {
+padding-right: 0;
+padding-left: 12px;
 }
 
 .icecream-img {
@@ -1133,7 +1133,7 @@ li:hover .sub-menu {
   border-radius: 20px;
   text-decoration: none;
   display: none;
-}
+  }
 
 .hit::before {
   content:"";
@@ -1148,7 +1148,7 @@ li:hover .sub-menu {
 
 .about-us {
   background-color: #cccccc;
-  margin-top: 50px;
+  margin-top: 0px;
   margin-bottom: 40px;
   box-sizing: border-box;
   background: #e9d9b8 url("../img/wafer-background.png");
