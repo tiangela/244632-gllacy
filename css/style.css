@@ -1061,7 +1061,7 @@ position: relative;
   padding-top: 6px;
   width: 267px;
   min-height: 335px;
-  margin-bottom: 20px;
+  margin-bottom: 21px;
   padding-right: 14px;
   padding-left: 13px;
   vertical-align: top;
@@ -1356,13 +1356,14 @@ padding-left: 12px;
   }
 
 .main-footer {
-  margin-bottom: 26px;
+  margin-bottom: 25px;
 }
 
 .social {
   float: left;
   width: 200px;
-  margin-left: 22px;
+  margin-left: 27px;
+  margin-top: 3px;
 }
 
 .social-btn {
@@ -1414,8 +1415,9 @@ border: 3px solid #c2cec7;
 .production {
   float: left;
   width: 350px;
-  margin-left: 230px;
+  margin-left: 221px;
   position: relative;
+  margin-top: -1px;
 }
 
 .providers::after {
@@ -1424,8 +1426,8 @@ border: 3px solid #c2cec7;
   width: 15px;
   height: 13px;
   background: url("../img/icon-heart.png");
-  top: 3px;
-  left: -20px;
+  top: 2px;
+  left: -22px;
 }
 
 .production a {
@@ -1439,29 +1441,48 @@ border: 3px solid #c2cec7;
 }
 
 .production .about-make {
-  margin-right: 44px;
+  margin-right: 40px;
 }
 
 .production .providers {
   font-size: 13px;
   font-weight: bold;
   line-height: 18px;
-  margin-right: 30px;
+  margin-right: 27px;
   display: inline-block;
 }
 
 .footer-copyright {
   float: right;
   max-width: 190px;
-  margin-right: 20px;
+  margin-right: 26px;
+  position: relative;
 }
 
-.footer-copyright p {
+.copy {
+  display: inline-block;
   margin: 0;
+  padding: 0;
+  font-size: 0;
+}
+
+.copy p {
   font-size: 12px;
   line-height: 18px;
   color: #fff;
-  position: relative;
+  padding-top: 16px;
+}
+
+.btn-academy {
+  position: absolute;
+  top: -14px;
+  left: 1px;
+}
+
+.site {
+  text-decoration: none;
+  color: #fff;
+  border-bottom: 1px solid #9db1a5;
 }
 
 .sorting {
@@ -1772,13 +1793,17 @@ box-sizing: border-box;
   }
 
 .paginator {
+  display: block;
+  box-sizing: border-box;
   text-align: right;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 54px;
+  margin-bottom: 65px;
+  padding-right: 18px;
 }
 
 .paginator a {
     display: inline-block;
+    font-size: 16px;
     height: 25px;
     width: 25px;
     line-height: 25px;
@@ -1800,11 +1825,13 @@ box-sizing: border-box;
     background-image: url("../img/paginator-on.png");
     background-repeat: no-repeat;
     background-position: 50% 50%;
+    margin-left: 5px;
 }
 
 .paginator .current {
     background-color: #fff;
     color: #000;
+
 }
 
 .paginator .disabled {
@@ -1813,4 +1840,14 @@ box-sizing: border-box;
 
 .paginator a:hover {
     background-color: #9db1a5;
+}
+
+.footer-copyright::after {
+  content: "";
+  height: 1px;
+  background-color: #9db1a5;
+  width: 1146px;
+  position: absolute;
+  right: 0px;
+  top: -35px;
 }
