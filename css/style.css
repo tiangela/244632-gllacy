@@ -1209,6 +1209,7 @@ li:hover .sub-menu {
   padding-left: 20px;
   box-sizing: border-box;
   border-radius: 15px;
+  padding-top: 10px;
 }
 
 .post {
@@ -1281,9 +1282,8 @@ li:hover .sub-menu {
 .feedback {
   float: right;
   background-color: #fefefe;
-  ;
-  margin-top: 100px;
-  margin-bottom: 102px;
+  margin-top: 128px;
+  margin-bottom: 92px;
   margin-right: 26px;
   min-height: 305px;
   border-radius: 10px;
@@ -1304,7 +1304,7 @@ li:hover .sub-menu {
 .adress {
   font-size: 18px;
   line-height: 24px;
-  font-color: #323232;
+  color: #323232;
   font-weight: bold;
   margin-bottom: 24px;
 }
@@ -1491,6 +1491,7 @@ li:hover .sub-menu {
 .sort {
   margin-left: 13px;
   height: 36px;
+  position: relative;
 }
 
 .sorting p {
@@ -1502,6 +1503,20 @@ li:hover .sub-menu {
 
 .sort select {
   -webkit-appearance: none;
+}
+
+.sort::after {
+  content: "";
+  position: absolute;
+  width: 9px;
+  height: 5px;
+  background-image: url("../img/marker.png");
+  right: 1px;
+  top: 16px;
+}
+
+.sort:hover:after {
+  background-image: url("../img/marker-on.png");
 }
 
 .choice-left {
@@ -1531,12 +1546,6 @@ li:hover .sub-menu {
   background-color: #fff;
   color: #000;
   font-weight: normal;
-}
-
-.sort::before {
-  content: "";
-  position: absolute;
-  
 }
 
 .price {
