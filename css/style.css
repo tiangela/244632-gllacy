@@ -1053,8 +1053,8 @@ li:hover .sub-menu {
 
 .products{
   font-size: 0;
-position: relative;
-}
+  position: relative;
+  }
 
 .icecream {
   display: inline-block;
@@ -1084,12 +1084,12 @@ padding-left: 12px;
 
 .icecream-wrapper {
   position: absolute;
-  z-index: 70;
 }
 
 .icecream-wrapper:hover {
   background: rgba(168, 185, 174, 0.3);
   border-radius: 5px;
+    z-index: 70;
   }
 
 .icecream:hover .icecream-btn  {
@@ -1117,7 +1117,7 @@ padding-left: 12px;
   font-size: 16px;
   line-height: 22px;
   font-weight: 500;
-}
+  }
 
 .icecream-btn {
   padding-top: 9px;
