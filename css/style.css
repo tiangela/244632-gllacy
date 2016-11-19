@@ -32,6 +32,7 @@ h2 {
   line-height: 30px;
   color: #323232;
   margin: 0px;
+  margin-left: -2px;
   font-weight: 500;
   padding-right: 5px;
 }
@@ -48,6 +49,7 @@ h3 {
   color: #ffffff;
   padding: 0;
   margin: 0;
+  margin-top: -2px;
 }
 
 .modal-overlay {
@@ -1241,60 +1243,37 @@ li:hover .sub-menu {
   background: #e9d9b8 url("../img/wafer-background.png");
   border-radius: 10px;
   width: 1146px;
-  height: 310px;
+  height: 306px;
   position: relative;
 }
 
 .about-us-left {
-  float: left;
+width: 480px;
+float: left;
+padding-left: 54px;
+}
+
+.about-us-left-top {
+  margin-top: 22px;
+}
+
+.about-us-left-bottom {
+  margin-top: 22px;
 }
 
 .about-us-right {
   float: right;
-}
-
-.about-us-left-top {
-  vertical-align: top;
-  font-size: 0;
   width: 480px;
-}
-
-.about-us-left-top p {
-  font-size: 16px;
-  line-height: 22px;
-  padding: 0;
-  padding-left: 55px;
-  padding-top: 21px;
-  margin: 0;
-}
-
-.about-us-left-bottom {
-  vertical-align: top;
-  font-size: 0;
-}
-
-.about-us-left-bottom p {
-  font-size: 16px;
-  line-height: 22px;
-  padding-left: 55px;
-  padding-top: 6px;
-  width: 480px;
+  padding-right: 1px;
 }
 
 .about-us-right-top {
-  vertical-align: top;
-  font-size: 0;
+  margin-top: 22px;
 }
 
-.about-us-right-top p {
-  font-size: 16px;
-  line-height: 22px;
-  padding-left: 55px;
-  padding-top: 6px;
-  width: 480px;
+.about-us-right-bottom {
+  margin-top: 22px;
 }
-
-
 
 .about-us-left::before {
   content: "";
@@ -1303,7 +1282,7 @@ li:hover .sub-menu {
   background-image: url("../img/icon-icecream.png");
   position: absolute;
   left: 20px;
-  top: 96px;
+  top: 93px;
 }
 
 
@@ -1323,8 +1302,8 @@ li:hover .sub-menu {
   height: 49px;
   background-image: url("../img/icon-cow.png");
   position: absolute;
-  right: 520px;
-  top: 96px;
+  right: 511px;
+  top: 94px;
 }
 
 .about-us-right::after {
@@ -1333,7 +1312,7 @@ li:hover .sub-menu {
   height: 49px;
   background-image: url("../img/icon-thermo.png");
   position: absolute;
-  right: 520px;
+  right: 511px;
   top: 180px;
 }
 
