@@ -11,8 +11,6 @@ body>input[type="radio"] {
   display: none;
 }
 
-.choice {}
-
 h1 {
   font-size: 35px;
   color: #fff;
@@ -474,9 +472,9 @@ h3 {
   float: right;
   font-size: 0;
   margin: 0;
-  margin-top: 18px;
+  margin-top: 17px;
   margin-right: 19px;
-  width: 267px;
+  width: 269px;
   position: relative;
 }
 
@@ -691,10 +689,12 @@ li:hover .sub-menu {
   display: none;
   top: 36px;
   right: 0;
-  padding: 20px;
+  padding: 20px 15px;
   background-color: #f8f7f4;
   border-radius: 5px;
   box-shadow: 2px 10px 20px 3px #505f57;
+  z-index: 5;
+  width: 312px;
 }
 
 .search-modal input[type="search"] {
@@ -702,7 +702,8 @@ li:hover .sub-menu {
   color: #999;
   line-height: 24px;
   border-radius: 5px;
-  padding: 10px 20px;
+  padding: 9px 14px;
+  padding-right: 151px;
   background-color: #fff;
   box-shadow: none;
   border: 1px solid #d3d3d2;
@@ -721,8 +722,8 @@ li:hover .sub-menu {
   width: 92px;
   font-size: 14px;
   line-height: 16px;
-  padding: 7px 20px;
-  padding-left: 43px;
+  padding: 6px 20px;
+  padding-left: 45px;
   text-decoration: none;
   color: #fff;
   box-sizing: border-box;
@@ -748,13 +749,13 @@ li:hover .sub-menu {
 }
 
 .help-1 {
-  right: 35px;
-  bottom: 45px;
+  right: 38px;
+  bottom: 46px;
 }
 
 .help-2 {
-  right: 15px;
-  bottom: 20px;
+  right: 19px;
+  bottom: 25px;
 }
 
 .entry:hover {
@@ -788,10 +789,10 @@ li:hover .sub-menu {
   font-size: 14px;
   background-color: #f8f7f4;
   border-radius: 5px;
-  top: 38px;
-  right: 0;
+  top: 35px;
+  right: -2px;
   z-index: 5;
-  padding: 20px;
+  padding: 20px 19px;
   width: 276px;
   height: 213px;
   box-sizing: border-box;
@@ -803,7 +804,7 @@ li:hover .sub-menu {
   color: #999;
   line-height: 24px;
   border-radius: 5px;
-  padding: 10px 20px;
+  padding: 9px 12px;
   margin-bottom: 20px;
   border: 1px solid #d3d3d2;
   width: 240px;
@@ -887,26 +888,20 @@ li:hover .sub-menu {
   line-height: 16px;
 }
 
-.marked .basket-1, .basket-2 {
+.marked .basket-1 {
   display: inline-block;
-  margin-top: 30px;
+  margin-top: 27px;
   vertical-align: top;
 }
 
 .marked .basket-2 {
-  margin-top: 30px;
+  margin-top: 24px;
 }
-
-
-/*.mark  .font2 {
-  display: inline-block;
-  margin-top: 30px;
-  vertical-align: top;
-} */
 
 .marked .marked-name {
   width: 220px;
-  padding-left: 88px;
+  padding-left: 83px;
+  margin-top: 27px;
   text-decoration: none;
   color: #323232;
 }
@@ -917,8 +912,8 @@ li:hover .sub-menu {
   width: 33px;
   height: 33px;
   background-image: url("../img/basket-mini1.png");
-  left: 45px;
-  top: 25px;
+  left: 38px;
+  top: 19px;
 }
 
 .name-2::after {
@@ -927,12 +922,12 @@ li:hover .sub-menu {
   width: 33px;
   height: 33px;
   background-image: url("../img/basket-mini2.png");
-  left: 45px;
-  top: 90px;
+  left: 38px;
+  top: 71px;
 }
 
 .marked .basket-sum {
-  padding-left: 28px;
+  padding-left: 25px;
 }
 
 .marked .basket-sum span {
@@ -940,7 +935,7 @@ li:hover .sub-menu {
 }
 
 .marked .basket-sum-all {
-  padding-left: 22px;
+  padding-left: 24px;
 }
 
 .closed {
@@ -948,15 +943,15 @@ li:hover .sub-menu {
   height: 10px;
   background-image: url("../img/basket-close.png");
   position: absolute;
-  left: 18px;
+  left: 17px;
 }
 
 .closed-1 {
-  top: 35px;
+  top: 28px;
 }
 
 .closed-2 {
-  top: 100px;
+  top: 82px;
 }
 
 .basket-modal::before {
@@ -986,7 +981,7 @@ li:hover .sub-menu {
   line-height: 16px;
   text-decoration: none;
   color: #fff;
-  padding: 8px 20px;
+  padding: 6px 20px;
   padding-left: 44px;
   min-width: 118px;
   height: 32px;
@@ -1151,8 +1146,8 @@ li:hover .sub-menu {
   line-height: 45px;
   font-weight: bold;
   position: absolute;
-  bottom: 76px;
-  left: 29px;
+  bottom: 71px;
+  left: 14px;
   z-index: 200;
   padding-right: 90px;
 }
@@ -1596,8 +1591,8 @@ li:hover .sub-menu {
   width: 9px;
   height: 5px;
   background-image: url("../img/marker.png");
-  right: 1px;
-  top: 16px;
+  right: -2px;
+  top: 15px;
 }
 
 .sort:hover:after {
@@ -1613,7 +1608,7 @@ li:hover .sub-menu {
 }
 
 .popular {
-  padding-left: 11px;
+  padding-left: 13px;
   padding-top: 7px;
   padding-bottom: 11px;
   color: #fff;
@@ -1645,7 +1640,7 @@ li:hover .sub-menu {
   position: relative;
   height: 36px;
   border-radius: 25px;
-  padding-top: 17px;
+  padding-top: 15px;
   padding-left: 16px;
   padding-right: 16px;
   background: #a9b9af;
@@ -1669,7 +1664,7 @@ li:hover .sub-menu {
   width: 20px;
   height: 20px;
   box-shadow: 0 1px 0 0 #a0aea5;
-  border-radius: 20px;
+  border-radius: 100%;
   background: #f8f7f4;
   position: absolute;
   cursor: pointer;
@@ -1680,6 +1675,8 @@ li:hover .sub-menu {
 .toggle:hover {
   width: 23px;
   height: 23px;
+  top: 6px;
+  left: -1px;
 }
 
 .range-controls .toggle-min {
@@ -1687,7 +1684,7 @@ li:hover .sub-menu {
 }
 
 .range-controls .toggle-max {
-  left: 135px;
+  left: 134px;
 }
 
 .price p {
@@ -1793,7 +1790,7 @@ li:hover .sub-menu {
 .fillers-choice label {
   display: inline-block;
   margin-top: 9px;
-  padding-left: 48px;
+  padding-left: 46px;
   position: relative;
   cursor: pointer;
 }
@@ -1808,7 +1805,7 @@ li:hover .sub-menu {
   width: 20px;
   height: 20px;
   background-image: url("../img/chekbox-off.png");
-  left: 17px;
+  left: 13px;
 }
 
 .fillers-choice input[type="checkbox"]+.checkbox-indicator:hover {
@@ -1817,7 +1814,7 @@ li:hover .sub-menu {
   width: 20px;
   height: 20px;
   background-image: url("../img/checkb-hov.png");
-  left: 17px;
+  left: 13px;
 }
 
 .fillers-choice input[type="checkbox"]:checked+.checkbox-indicator {
@@ -1825,7 +1822,7 @@ li:hover .sub-menu {
   height: 20px;
   position: absolute;
   background-image: url("../img/chekbox-on.png");
-  left: 17px;
+  left: 15px;
 }
 
 .fillers-choice input[type="checkbox"]:checked+.checkbox-indicator:hover {
@@ -1833,7 +1830,7 @@ li:hover .sub-menu {
   height: 20px;
   position: absolute;
   background-image: url("../img/checked-hov.png");
-  left: 17px;
+  left: 15px;
 }
 
 .fillers-filter {
@@ -1852,6 +1849,10 @@ li:hover .sub-menu {
   line-height: 18px;
 }
 
+.fillers-filter label:nth-child(2) {
+  margin-left: 6px;
+}
+
 .fillers-filter label:nth-child(3) {
   margin-left: 10px;
 }
@@ -1861,7 +1862,7 @@ li:hover .sub-menu {
 }
 
 .fillers-filter label:nth-child(5) {
-  margin-left: 0;
+  margin-left: 8px;
   margin-right: 0;
 }
 
@@ -1933,7 +1934,7 @@ li:hover .sub-menu {
   opacity: 0.3;
 }
 
-.paginator a:hover {
+.paginator a:hover:not(.current) {
   background-color: #9db1a5;
 }
 
