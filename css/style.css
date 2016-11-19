@@ -21,14 +21,23 @@ h1 {
 
 h2 {
   font-size: 24px;
-  font-family: "Roboto Medium", "Arial", sans-serif;
-  font-weight: normal;
   line-height: 30px;
   color: #323232;
-  padding-left: 20px;
-  padding-top: 29px;
-  padding-right: 120px;
   margin: 0;
+  padding: 0;
+}
+
+.info-about {
+  font-size: 24px;
+  line-height: 30px;
+  color: #323232;
+  margin: 0px;
+  font-weight: 500;
+  padding-right: 5px;
+}
+
+.info-about span {
+  margin-right: 10px;
 }
 
 h3 {
@@ -878,7 +887,7 @@ li:hover .sub-menu {
   width: 170px;
   height: 44px;
   margin-left: 350px;
-  margin-top: 5px;
+  margin-top: 6px;
 }
 
 .marked {
@@ -888,7 +897,7 @@ li:hover .sub-menu {
   line-height: 16px;
 }
 
-.marked .basket-1 {
+.marked .basket-1, .basket-2 {
   display: inline-block;
   margin-top: 27px;
   vertical-align: top;
@@ -901,7 +910,6 @@ li:hover .sub-menu {
 .marked .marked-name {
   width: 220px;
   padding-left: 83px;
-  margin-top: 27px;
   text-decoration: none;
   color: #323232;
 }
@@ -938,6 +946,14 @@ li:hover .sub-menu {
   padding-left: 24px;
 }
 
+.marked .name-1 {
+  margin-top:27px;
+}
+
+.marked .name-2 {
+  margin-top: 24px;
+}
+
 .closed {
   width: 12px;
   height: 10px;
@@ -956,11 +972,11 @@ li:hover .sub-menu {
 
 .basket-modal::before {
   content: "";
-  width: 510px;
+  width: 506px;
   height: 1px;
   position: absolute;
   background-color: #cacac7;
-  bottom: 100px;
+  bottom: 112px;
   left: 15px;
 }
 
@@ -1218,20 +1234,67 @@ li:hover .sub-menu {
 }
 
 .about-us {
-  margin-top: 0;
+  margin-top: 9px;
   margin-bottom: 40px;
+  padding: 24px 22px 17px;
   box-sizing: border-box;
   background: #e9d9b8 url("../img/wafer-background.png");
   border-radius: 10px;
   width: 1146px;
+  height: 310px;
   position: relative;
 }
 
 .about-us-left {
-  width: 480px;
   float: left;
-  padding-left: 76px;
 }
+
+.about-us-right {
+  float: right;
+}
+
+.about-us-left-top {
+  vertical-align: top;
+  font-size: 0;
+  width: 480px;
+}
+
+.about-us-left-top p {
+  font-size: 16px;
+  line-height: 22px;
+  padding: 0;
+  padding-left: 55px;
+  padding-top: 21px;
+  margin: 0;
+}
+
+.about-us-left-bottom {
+  vertical-align: top;
+  font-size: 0;
+}
+
+.about-us-left-bottom p {
+  font-size: 16px;
+  line-height: 22px;
+  padding-left: 55px;
+  padding-top: 6px;
+  width: 480px;
+}
+
+.about-us-right-top {
+  vertical-align: top;
+  font-size: 0;
+}
+
+.about-us-right-top p {
+  font-size: 16px;
+  line-height: 22px;
+  padding-left: 55px;
+  padding-top: 6px;
+  width: 480px;
+}
+
+
 
 .about-us-left::before {
   content: "";
@@ -1242,6 +1305,7 @@ li:hover .sub-menu {
   left: 20px;
   top: 96px;
 }
+
 
 .about-us-left::after {
   content: "";
@@ -1271,12 +1335,6 @@ li:hover .sub-menu {
   position: absolute;
   right: 520px;
   top: 180px;
-}
-
-.about-us-right {
-  float: right;
-  width: 480px;
-  padding-right: 35px;
 }
 
 .container-left {
@@ -1485,7 +1543,7 @@ li:hover .sub-menu {
 .production {
   float: left;
   width: 350px;
-  margin-left: 221px;
+  margin-left: 223px;
   position: relative;
   margin-top: -1px;
 }
@@ -1526,6 +1584,7 @@ li:hover .sub-menu {
   float: right;
   max-width: 190px;
   margin-right: 26px;
+  margin-top: -2px;
   position: relative;
 }
 
@@ -1945,5 +2004,5 @@ li:hover .sub-menu {
   width: 1146px;
   position: absolute;
   right: 0;
-  top: -35px;
+  top: -33px;
 }
