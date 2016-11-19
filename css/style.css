@@ -332,19 +332,22 @@ h3 {
 .slide-title {
   width: 700px;
   margin: 40px auto;
-  margin-bottom: 30px;
-  font-weight: 800;
+  padding-top: 2px;
+  padding-left: 1px;
+  margin-bottom: 32px;
+  font-weight: bold;
   font-size: 60px;
   line-height: 60px;
 }
 
 .slide-btn {
   display: inline-block;
-  padding: 12px 50px;
-  font-weight: 600;
-  font-size: 31px;
-  line-height: 41px;
+  padding: 8px 40px;
+  font-weight: 607;
+  font-size: 32px;
+  line-height: 44px;
   vertical-align: top;
+  font-weight: bold;
   color: #ffffff;
   text-decoration: none;
   text-shadow: 0 2px 5px rgba(160, 32, 11, 0.76);
@@ -353,6 +356,9 @@ h3 {
   background: linear-gradient(to bottom, #f26843 0%, #e74a35 100%);
   border-radius: 100px;
   box-shadow: 0 2px 2px rgba(172, 16, 0, 0.64);
+  width: 278px;
+  height: 64px;
+  box-sizing: border-box;
 }
 
 .slide-btn:hover {
@@ -369,8 +375,8 @@ h3 {
 
 .slider-controls {
   position: absolute;
-  bottom: 60px;
-  left: 30px;
+  bottom: 62px;
+  left: 28px;
   z-index: 20;
   font-size: 0;
 }
@@ -825,13 +831,8 @@ li:hover .sub-menu {
   height: 20px;
   position: absolute;
   background-image: url("../img/basket-icon.png");
-  left: 10px;
-}
-
-.basket-field:hover {
-  background: #f8f7f4;
-  border-radius: 15px;
-  color: #000;
+  left: 14px;
+  bottom: 6px;
 }
 
 .basket-modal {
@@ -1017,13 +1018,13 @@ li:hover .sub-menu {
 
 .stock {
   color: #fff;
-  margin-bottom: 35px;
+  margin-bottom: 30px;
 }
 
 .offer {
   float: left;
-  width: 560px;
-  min-height: 226px;
+  width: 562px;
+  min-height: 229px;
   padding-left: 20px;
   padding-right: 20px;
   box-sizing: border-box;
@@ -1035,11 +1036,14 @@ li:hover .sub-menu {
   display: block;
   font-size: 35px;
   line-height: 41px;
-  padding-top: 20px;
+  padding-top: 17px;
   font-weight: bold;
 }
 
 .offer p {
+  margin: 0;
+  margin-top: 14px;
+  padding: 0;
   font-size: 18px;
   line-height: 22px;
   font-weight: bold;
@@ -1053,11 +1057,13 @@ li:hover .sub-menu {
   font-size: 18px;
   line-height: 24px;
   font-weight: bold;
-  padding: 11px 22px 14px 22px;
+  padding: 10px 22px 14px 22px;
   border-radius: 20px;
   position: absolute;
   right: 22px;
   bottom: 23px;
+  max-height: 46px;
+  box-sizing: border-box;
 }
 
 .btn-stock:hover {
@@ -1178,7 +1184,8 @@ li:hover .sub-menu {
   background-image: url("../img/hit-image.png");
   width: 61px;
   height: 61px;
-  left: 25px;
+  left: 28px;
+  top: 10px;
   z-index: 100;
   text-align: center;
 }
