@@ -1,4 +1,4 @@
-var link = document.querySelector(".btn-form");
+var link = document.querySelector(".contact-feedback");
 var popup = document.querySelector(".modal-content");
 var close = popup.querySelector(".modal-content-close");
 
@@ -33,12 +33,12 @@ close.addEventListener("click", function (event) {
 
 // отправка формы
 form.addEventListener("submit", function (event) {
-    event.preventDefault();
-    if (!login.value || !password.value) {
+        if (!login.value || !password.value) {
         popup.classList.remove("modal-error");
         //popup.offsetWidth = popup.offsetWidth;
         console.log("Нужно ввести имя и электронную почту");
         popup.classList.add("modal-error");
+        event.preventDefault();
     } else {
         localStorage.setItem("login", login.value);
         localStorage.setItem("password", password.value);

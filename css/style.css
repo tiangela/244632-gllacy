@@ -455,6 +455,10 @@ h3 {
   box-shadow: inset 0 1px 1px 1px #696969;
 }
 
+.active-catalog:active {
+  box-shadow: inset 0 1px 1px 1px #696969;
+}
+
 .menu-item::before {
   content: "";
   position: absolute;
@@ -716,7 +720,7 @@ li:hover .sub-menu {
   line-height: 24px;
   border-radius: 5px;
   padding: 9px 14px;
-  padding-right: 151px;
+  width: 309px;
   background-color: #fff;
   box-shadow: none;
   border: 1px solid #d3d3d2;
@@ -735,8 +739,8 @@ li:hover .sub-menu {
   width: 92px;
   font-size: 14px;
   line-height: 16px;
-  padding: 6px 20px;
-  padding-left: 45px;
+  padding: 8px 20px;
+  padding-left: 44px;
   text-decoration: none;
   color: #fff;
   box-sizing: border-box;
@@ -871,7 +875,7 @@ li:hover .sub-menu {
 .basket-modal {
   position: absolute;
   background-color: white;
-  width: 540px;
+  width: 541px;
   height: 242px;
   right: 0;
   top: 100%;
@@ -912,7 +916,7 @@ li:hover .sub-menu {
   border-radius: 50px;
   width: 170px;
   height: 44px;
-  margin-left: 350px;
+  margin-left: 352px;
   margin-top: 6px;
 }
 
@@ -1031,7 +1035,7 @@ li:hover .sub-menu {
   color: black;
   font-weight: bold;
   margin-top: 30px;
-  margin-left: 415px;
+  margin-left: 416px;
 }
 
 .basket-field-on {
@@ -1040,8 +1044,8 @@ li:hover .sub-menu {
   line-height: 16px;
   text-decoration: none;
   color: #fff;
-  padding: 6px 20px;
-  padding-left: 41px;
+  padding: 8px 20px;
+  padding-left: 44px;
   min-width: 118px;
   height: 32px;
   box-sizing: border-box;
@@ -1060,12 +1064,12 @@ li:hover .sub-menu {
   bottom: 6px;
 }
 
-.basket-field-on.active {
+.basket-field-on .active {
   background-color: #f7f6f3;
   color: #000000;
 }
 
-.basket-field-on.active::before {
+.basket-field-on .active::before {
   content: "";
   width: 21px;
   height: 20px;
@@ -1124,7 +1128,7 @@ li:hover .sub-menu {
   font-size: 18px;
   line-height: 24px;
   font-weight: bold;
-  padding: 10px 22px 14px 22px;
+  padding: 9px 19px 14px 22px;
   border-radius: 20px;
   position: absolute;
   right: 22px;
@@ -1165,7 +1169,7 @@ li:hover .sub-menu {
 .products {
   font-size: 0;
   position: relative;
-  margin-left: 1px;
+  margin-left: 3px;
 }
 
 .icecream {
@@ -1202,7 +1206,8 @@ li:hover .sub-menu {
 }
 
 .icecream-wrapper:hover {
-  background: rgba(168, 185, 174, 0.3);
+  background: rgba(255,255,255,0.2);
+  box-shadow: 2px 20px 30px 5px rgba(0,0,0,0.1);
   border-radius: 5px;
   z-index: 70;
 }
@@ -1220,8 +1225,8 @@ li:hover .sub-menu {
   line-height: 45px;
   font-weight: bold;
   position: absolute;
-  bottom: 71px;
-  left: 14px;
+  bottom: 73px;
+  left: 12px;
   z-index: 200;
   padding-right: 90px;
   text-shadow: #697b72 1px 1px 3px;
@@ -1248,9 +1253,9 @@ li:hover .sub-menu {
 .icecream-species {
   display: block;
   text-align: center;
-  padding-left: 7px;
-  padding-right: 7px;
-  padding-top: 1px;
+  padding-left: 5px;
+  padding-right: 4px;
+  padding-top: 4px;
   height: 46px;
   overflow: hidden;
 }
@@ -1454,7 +1459,7 @@ li:hover .sub-menu {
   position: absolute;
   right: 5px;
   top: 5px;
-  padding-left: 20px;
+  padding-left: 23px;
   box-sizing: border-box;
   font-size: 0;
 }
@@ -1486,12 +1491,12 @@ li:hover .sub-menu {
   line-height: 24px;
   font-weight: bold;
   background-color: #eb563b;
-  padding: 9px 19px;
+  padding: 9px 20px;
   border: none;
   border-radius: 25px;
-  width: 128px;
+  width: 130px;
   box-sizing: border-box;
-  margin-left: 12px;
+  margin-left: 10px;
   height: 45px;
   text-shadow: 0 2px 5px rgba(160, 32, 11, 0.76);
   background: -webkit-linear-gradient(top, #f26843 0%, #e74a35 100%);
@@ -1601,7 +1606,7 @@ li:hover .sub-menu {
   box-sizing: border-box;
 }
 
-.feedback-btn input[type="submit"] {
+.feedback-btn .contact-feedback {
   display: inline-block;
   background-color: #ea5b3d;
   color: white;
@@ -1609,7 +1614,7 @@ li:hover .sub-menu {
   font-size: 18px;
   line-height: 24px;
   font-weight: bold;
-  padding: 8px 0px 21px 10px;
+  padding: 8px 0px 21px 30px;
   margin-right: 26px;
   border-radius: 30px;
   position: absolute;
@@ -1824,8 +1829,8 @@ li:hover .sub-menu {
 }
 
 .popular {
-  padding-left: 13px;
-  padding-top: 7px;
+  padding-left: 17px;
+  padding-top: 9px;
   padding-bottom: 11px;
   color: #fff;
   font-size: 16px;
@@ -2022,7 +2027,7 @@ li:hover .sub-menu {
   width: 20px;
   height: 20px;
   background-image: url("../img/chekbox-off.png");
-  left: 13px;
+  left: 15px;
 }
 
 .fillers-choice input[type="checkbox"]+.checkbox-indicator:hover {
@@ -2031,7 +2036,7 @@ li:hover .sub-menu {
   width: 20px;
   height: 20px;
   background-image: url("../img/checkb-hov.png");
-  left: 13px;
+  left: 15px;
 }
 
 .fillers-choice input[type="checkbox"]:checked+.checkbox-indicator {
