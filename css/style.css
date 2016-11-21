@@ -349,7 +349,7 @@ h3 {
 
 .slide-btn {
   display: inline-block;
-  padding: 8px 40px;
+  padding: 8px 38px;
   font-size: 32px;
   line-height: 44px;
   vertical-align: top;
@@ -914,7 +914,7 @@ li:hover .sub-menu {
   border-radius: 50px;
   width: 170px;
   height: 44px;
-  margin-left: 352px;
+  margin-left: 357px;
   margin-top: 6px;
 }
 
@@ -1033,7 +1033,7 @@ li:hover .sub-menu {
   color: black;
   font-weight: bold;
   margin-top: 30px;
-  margin-left: 416px;
+  margin-left: 417px;
 }
 
 .basket-field-on {
@@ -1788,8 +1788,9 @@ li:hover .sub-menu {
 .sort {
   margin-left: 13px;
   height: 36px;
+  border-radius: 20px;
   position: relative;
-}
+  }
 
 .sorting p {
   font-size: 14px;
@@ -1810,7 +1811,7 @@ li:hover .sub-menu {
   width: 9px;
   height: 5px;
   background-image: url("../img/marker.png");
-  right: -2px;
+  right: 2px;
   top: 15px;
 }
 
@@ -1826,10 +1827,8 @@ li:hover .sub-menu {
   color: #fff;
 }
 
-.popular {
-  padding-left: 17px;
-  padding-top: 9px;
-  padding-bottom: 11px;
+.sort .popular {
+  padding: 6px 0 11px 17px;
   color: #fff;
   font-size: 16px;
   line-height: 18px;
@@ -1839,6 +1838,10 @@ li:hover .sub-menu {
   width: 193px;
   height: 36px;
   box-sizing: border-box;
+}
+
+select::-ms-expand {
+display: none;
 }
 
 .popular:hover {
