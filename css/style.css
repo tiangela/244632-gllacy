@@ -177,11 +177,10 @@ h3 {
 
 .modal-content-map {
   position: absolute;
-  top: 1880px;
-  left: auto;
-  width: 1200px;
+  top: 1884px;
+  width: 100%;
   height: 430px;
-  background: url("../img/map.png");
+  background: url("../img/map.png") center no-repeat;
   z-index: 50;
 }
 
@@ -1314,7 +1313,7 @@ li:hover .sub-menu {
 
 .about-us {
   margin-top: 9px;
-  margin-bottom: 40px;
+  margin-bottom: 44px;
   padding: 24px 22px 17px;
   box-sizing: border-box;
   background: #e9d9b8 url("../img/wafer-background.png");
@@ -1398,10 +1397,10 @@ li:hover .sub-menu {
   width: 560px;
   margin-left: 2.3%;
   min-height: 220px;
-  padding-left: 20px;
+  padding-left: 18px;
   box-sizing: border-box;
   border-radius: 15px;
-  padding-top: 22px;
+  padding-top: 18px;
 }
 
 .container-left p {
@@ -1466,7 +1465,7 @@ li:hover .sub-menu {
 .container-right-layer p {
   font-size: 16px;
   line-height: 22px;
-  margin: 29px 12px 35px 2px;
+  margin: 26px 12px 35px 2px;
   padding: 0;
 }
 
@@ -1551,8 +1550,8 @@ li:hover .sub-menu {
 .feedback {
   float: right;
   background-color: #fefefe;
-  margin-top: 103px;
-  margin-bottom: 97px;
+  margin-top: 99px;
+  margin-bottom: 98px;
   margin-right: 26px;
   min-height: 305px;
   border-radius: 10px;
@@ -2188,5 +2187,5 @@ li:hover .sub-menu {
   width: 1146px;
   position: absolute;
   right: 0;
-  top: -33px;
+  top: -35px;
 }
