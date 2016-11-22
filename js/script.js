@@ -58,7 +58,7 @@ window.addEventListener("keydown", function (event) {
 
 
 // закрытие при нажатии на тень
-shadow.addEventListener('click', function(event) {
+shadow.addEventListener("click", function(event) {
     event.preventDefault();
     popup.classList.remove("modal-content-show");
     popup.classList.remove("modal-error");
