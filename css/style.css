@@ -534,12 +534,11 @@ textarea:focus
 
     cursor: pointer;
     vertical-align: top;
+    vertical-align: top;
 
     border: 2px solid #fff;
     border-radius: 50%;
     background-color: transparent;
-
-    vertical-align: top;
 }
 
 .clearfix::after
@@ -1137,6 +1136,8 @@ li:hover .sub-menu
     height: 45px;
     padding: 10px;
 
+    vertical-align: top;
+
     color: #fefefe;
     border: none;
     border-radius: 20px;
@@ -1145,8 +1146,6 @@ li:hover .sub-menu
     background:         linear-gradient(to bottom, #f26843 0%, #e74a35 100%);
     background-color: #f26843;
     box-shadow: 0 2px 2px rgba(172, 16, 0, .64);
-
-    vertical-align: top;
 }
 
 .login-modal input[type='submit']:hover
@@ -1524,6 +1523,7 @@ li:hover .sub-menu
     max-height: 46px;
     padding: 9px 19px 11px 22px;
 
+    vertical-align: top;
     text-decoration: none;
 
     color: white;
@@ -1533,8 +1533,6 @@ li:hover .sub-menu
     background:         linear-gradient(to bottom, #f26843 0%, #e74a35 100%);
     background-color: #ea5b3d;
     box-shadow: 0 2px 2px rgba(172, 16, 0, .64);
-
-    vertical-align: top;
 }
 
 .btn-stock:hover
@@ -1626,8 +1624,8 @@ li:hover .sub-menu
     z-index: 70;
 
     border-radius: 5px;
-    background: rgba(255,255,255,.2);
-    box-shadow: 2px 20px 30px 5px rgba(0,0,0,.1);
+    background: rgba(255, 255, 255, .2);
+    box-shadow: 2px 20px 30px 5px rgba(0, 0, 0, .1);
 }
 
 .icecream-price:hover .icecream-btn
@@ -1703,6 +1701,11 @@ li:hover .sub-menu
 
     color: #fff;
     border-bottom: 1px solid #9db1a5;
+}
+
+.icecream-item:hover
+{
+    color: #ffbc9e;
 }
 
 .icecream-btn
@@ -2790,14 +2793,13 @@ select::-ms-expand
     height: 36px;
     padding: 7px 0 10px 0;
 
+    vertical-align: top;
     text-decoration: none;
 
     color: #fff;
     border: 2px solid #fff;
     border-radius: 20px;
     background-color: #aabcb2;
-
-    vertical-align: top;
 }
 
 .choice-btn:hover
