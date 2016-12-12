@@ -4,7 +4,7 @@
 * Наставник: [Шамиль :) Алисултанов].
 
 ---
-https://tiangela.github.io/244632-gllacy
+https://tiangela.github.io/244632-gllacy/
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
 _`.editorconfig`, `.gitignore`, `Contributing.md`, `Readme.md`._
