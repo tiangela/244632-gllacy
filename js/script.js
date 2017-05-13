@@ -13,7 +13,6 @@ var storage = localStorage.getItem("login");
 // Открытие окна
 link.addEventListener("click", function (event) {
     event.preventDefault();
-    popup.classList.add("modal-content-show");
     shadow.classList.add("modal-overlay-shadow");
     if (storage) {
         login.value = storage;
